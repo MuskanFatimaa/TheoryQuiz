@@ -1,0 +1,61 @@
+.background-color{
+    background-color: #BEE6F3;
+    width:1440px;
+    height:750px;
+}
+
+.logotext{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#47707D;
+    font-size: 24px;
+    padding: 0%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: right; /* Align the text to the right */
+    font-size: 2rem; /* Adjust the font size as needed */
+    margin-right: 30px; /* Add some right margin for spacing */
+
+}
+
+.specs{
+        display: flex;
+        align-items: center;
+        width: 50px; /* Adjust the width of your logo as needed */
+        height: auto; /* Maintain the aspect ratio */
+        margin-right: 10px; /* Add spacing between logo and text */
+        max-width: 100%;
+        height: auto; /* Ensures the image scales proportionally */
+    
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh; /* Make the container take up the full viewport height */
+}
+
+.centered-text {
+    color: #E8D9C7;
+    font-size: 50px; /* Adjust the font size as needed */
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left; /* Center the text horizontally */
+    height:100px;
+}
+
+.topmost-text{
+padding-top: 60px;
+color: #E8D9C7;
+font-size: 30px; /* Adjust the font size as needed */
+display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: flex-start;
+text-align: left; /* Center the text horizontally */
+height:10px;
+}
